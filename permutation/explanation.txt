@@ -1,0 +1,28 @@
+Explanation of the Algorithm:
+Step1: Used multi-level sorting preserving the initial position of the values
+	   Used Qsort for this with complexity: O(nlogn)
+Step2: One iteration over the inputs to get the current sorted index from the previosu 	
+	   index with complexity O(n)
+Step2: Finally print the values with complexity O(n)
+So the overall complexity is: O(nlogn) + O(n) + O(n) == O(nlogn)
+
+For the input 35, 67, 12, 7, 42 
+after step1 we have:
+Value  Pre_pos		cur_Pos	
+7 		4 			1
+12 		3 			2
+35 		1 			3	
+42 		5 			4
+67 		2 			5
+In step2 we have:
+Ans[pre_pos]= cur_pos;
+Ans[1] = 3;
+Ans[2] = 5;
+Ans[3] = 2;
+Ans[4] = 1;
+Ans[5] = 4;
+Finally in step3 print the Ans[]:
+35214
+
+
+

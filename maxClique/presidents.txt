@@ -1,0 +1,128 @@
+GWashington 1732 1799 
+
+
+JAdams 1735 1826
+
+
+TJefferson 1735 1826 
+
+
+JMadison 1751 1836 
+
+
+JMonroe 1758 1831
+
+
+JQAdams 1767 1848 
+
+
+AJackson 1767 1845
+
+
+MVBuren 1782 1862 
+
+
+WHHarrison 1773 1841
+
+
+JTyler 1790 1862
+
+
+JKPolk 1795 1849 
+
+
+ZTaylor 1784 1850
+
+
+MFillmore 1800 1874 
+
+
+FPierce 1804 1869
+
+
+JBuchanan 1791 1868
+
+
+ALincoln 1809 1865 
+
+
+AJohnson 1808 1875 
+
+
+USGrant 1822 1885
+
+
+RBHayes 1822 1893 
+
+
+JGarfield 1831 1881 
+
+
+CAArthur 1830 1886 
+
+
+BHarrison 1833 1901 
+
+
+GCleveland 1837 1908
+
+
+WMcKinley 1843 1901
+
+
+TRoosevelt 1858 1919 
+
+
+WHTaft 1857 1930 
+
+
+WWilson 1856 1924 
+
+
+WGHarding 1865 1923 
+
+
+CCoolidge 1872 1933
+
+
+HHoover 1874 1964
+
+
+FDRoosevelt 1882 1945
+
+
+HSTruman 1884 1972
+
+
+DDEisenhower 1890 1969
+
+
+JFKennedy 1917 1963 
+
+
+LBJohnson 1908 1973 
+
+
+RNixon 1913 1994
+
+
+GFord 1913 2006
+
+
+JCarter 1924 3000
+
+
+RReagan 1911 2004
+
+
+GBush 1924 3000
+
+
+BClinton 1946 3000
+
+
+GWBush 1946 3000
+
+
+BObama  1961  3000
+

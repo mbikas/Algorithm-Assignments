@@ -1,0 +1,20 @@
+Idea of the polynomial time algorithm for finding the maximum clique in an interval graph:
+1. Sorting the graph based on the their start point
+2. Calculating the maximum clique for each node by comparing with all other nodes end points with current nodes start point
+
+Algorithm:
+rerurn maximum Clique of an interval graph
+MamimumClique( G(V,E),N)
+//G in the interval Graph
+//N is the total number of nodes
+-----------------------
+1. Sort the noded based on their start points
+2. maxClique <- 1		//if input have only one point
+3. for i=1 to N-1		//N : no of  nodes in the interval graph
+		clique = 1;
+		for j= i to 0
+			if (G[j].y >= G[i+1].x)
+				clique <- clique +1;	
+		if (clique > maxClique)
+			maxClique <- clique;
+4. return maxClique

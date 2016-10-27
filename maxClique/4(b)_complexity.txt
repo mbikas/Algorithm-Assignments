@@ -1,0 +1,5 @@
+Complexily of the Algorithm:
+-----------------------------
+1. Sorting the graph using quicksort takes O(nlogn)
+2. for calculating clique for each node hence get the maximum clique takes O(n^2)
+Hence the overall complexity of this algorithm is O(n^2)

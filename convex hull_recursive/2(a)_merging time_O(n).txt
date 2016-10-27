@@ -1,0 +1,35 @@
+Merge Time in Divide and Conquer Approach of Convex Hull
+--------------------------------------------------------
+
+Algorithm of Merge Hull //n = no of points
+------------------------------------------
+  1. If n <=3, then all the points are in the hull and return
+  2. Partitioning the points into two halves based on their x  
+     Coordinates.
+  3. Recursively computing both set like Merge Sort
+  4. Finally merging the two hulls into a common convex hull.
+
+
+How to Merging Two Hull O(n)
+----------------------------
+-- Need to identify the bridge between two hulls as given in the assignment hints
+-- These bridges will be identified by their endpoints, Top_left Top_right, Bottom_left, and Bottom_right.  
+-- The convex hull will be the set of points in the left convex hull from Top_left through Bottom_left followed by the points in the right convex hull from Bottom_right to Top_right.  
+-- Bridge points can be calculated by checking if a line is tangent to a hull.
+-- Computing the two tangents took most of the time in the implementation
+-- The procedure to find the lower tangent is like below:
+	a. if r is the rightmost point of LeftHull
+	b. if l is the leftmost point of RightHull
+	c. While rl is not a lower tangent for LeftHull and RightHull do
+		While rl is not a lower tangent to LeftHull
+			move r counter clockwise
+		While rl is not a lower tangent to RightHull
+			move l counterclockwise
+-- As the above procedure can traverse atmost all the points so the merging complexity would be O(n)
+
+
+Overall MergeHull Complexity
+--------------------
+T(n) = n + T (n/2)
+     = O(nlogn)
+

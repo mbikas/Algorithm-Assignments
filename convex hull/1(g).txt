@@ -1,0 +1,5 @@
+1(g)
+----------
+In 1(e): All the 1000 points are on the convex hull, total no of points in the hull is then 1000. Grahan scan = O(nlogn) and Jarvis March = O(nh) where h = no of points in the hull. So log(1000) = 3 < h = 1000, which mean for this input set graham scan algorithm should run faster. The implementation above also shows the same behavior
+
+In 1(f) : Only the added three points are on the hull, total no of points in the hull is then 3. grahan scan = O(nlogn) and Jarvis March = O(nh) where h = no of points in the hull. So log(1000) = 3 == h = 3, which mean for this input set both algorithm should take approximately same time. But The implementation above shows that Jarvis March runs much faster than Graham scan for this input

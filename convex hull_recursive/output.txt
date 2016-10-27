@@ -1,0 +1,34 @@
+Testing and Comparing MergeHull With Data Set of Problem 1(d)
+----------
+Total RunTime with dataset in 1(d) for Merge Hull is: 0.000000ms
+Total RunTime with dataset in 1(d) for GrahamScn is: 0.000000ms
+Total RunTime with dataset in 1(d) for Jarvis March is: 0.000000ms
+---------------
+
+
+Testing and Comparing MergeHull With 1000 Data Set in 1(e)
+----------
+Total RunTime with dataset in 1(e) for Merge Hull is: 0.021000ms
+Total RunTime with dataset in 1(e) for GrahamScn is: 0.000000ms
+Total RunTime with dataset in 1(e) for Jarvis March is: 0.020000ms
+-----------
+
+
+Testing and Comparing MergeHull With 1000 Data Set + 3 given points in 1(f)
+----------
+Merge Hull Algorithm
+(1001, 1.002e+006) , (1001, 0) , (0, 0) , 
+Total Points in the Hull 3
+Total RunTime with dataset in 1(f) for Merge Hull is: 0.020000ms
+
+Graham Scan Algorithm
+(1001.0,1002001.0),(1001.0,0.0),(0.0,0.0),
+Total Points in the Hull 3
+Total RunTime with dataset in 1(f) for GrahamScn is: 0.010000ms
+
+Jarvis Algorithm
+(0.0,0.0),(1001.0,0.0),(1001.0,1002001.0),
+Total Points in the Hull 3
+Total RunTime with dataset in 1(f) for Jarvis March is: 0.000000ms
+--------------
+

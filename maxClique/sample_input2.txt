@@ -1,0 +1,6 @@
+GWashington 1 3 
+JAdams 2 7
+TJefferson 2 8
+JMadison 3 8
+JMonroe 4 6
+JQAdams 9 10
